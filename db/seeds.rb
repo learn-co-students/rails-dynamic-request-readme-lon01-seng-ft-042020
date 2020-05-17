@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Post.create([
+    {title: 'Fashion in Europe',
+    description: 'decribe and ilustrate a fashion in Europe in XXI century'},
+    {title: 'Famous building in Europe',
+    description: 'decribe and ilustrate the most famous building in Europe'}
+])
+
+puts "Sucessfully seeded"
